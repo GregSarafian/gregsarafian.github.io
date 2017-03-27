@@ -6,6 +6,75 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
+/* Selection Overrides */
+/*
+p::selection {
+    background: #bfbfbf;
+}
+
+p::-moz-selection {
+    background: #bfbfbf;
+}
+
+a::selection {
+    background: #bfbfbf;
+}
+
+a::-moz-selection {
+    background: #bfbfbf;
+}
+
+h1::selection {
+    background: #bfbfbf;
+}
+
+h1::-moz-selection {
+    background: #bfbfbf;
+}
+
+h2::selection {
+    background: #bfbfbf;
+}
+
+h2::-moz-selection {
+    background: #bfbfbf;
+}
+
+h4::selection {
+    background: #bfbfbf;
+}
+
+h4::-moz-selection {
+    background: #bfbfbf;
+}
+
+span::selection {
+    background: #bfbfbf;
+}
+
+span::-moz-selection {
+    background: #bfbfbf;
+}
+
+li::selection {
+    background: #bfbfbf;
+}
+
+li::-moz-selection {
+    background: #bfbfbf;
+}
+
+section::selection {
+    background: #bfbfbf;
+}
+
+section::-moz-selection {
+    background: #bfbfbf;
+}
+*/
+
+/* Selection Overrides Finished */
+
 body {
     margin: 0
 }
