@@ -428,6 +428,19 @@ a#email:hover {
     background-color: #27ae60;
 }
 
+a#mini {
+    font-family: Karla; sans-serif;
+    font-size: 1rem;
+    margin: 0.75em 0;
+    font-weight: normal;
+    padding: 0 0;
+}
+
+a#mini:hover {
+    background-color: #fffbf1;
+    color: black;
+}
+
 a#disabled {
 
 }
