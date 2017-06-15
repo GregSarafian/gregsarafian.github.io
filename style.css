@@ -444,8 +444,8 @@ a#mini:hover {
     color: black;
 }
 
-a#disabled {
-
+a#disabled:hover {
+    cursor: not-allowed;
 }
 
 .header {
