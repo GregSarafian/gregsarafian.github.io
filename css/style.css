@@ -384,6 +384,14 @@ a#mini {
     padding: 0 0;
 }
 
+a#mini-bullet {
+    margin: 0.75em 0 0 10px;
+    color: #0366d6;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 0 0;
+}
+
 
 a#mini:hover {
     text-decoration: underline;
@@ -408,6 +416,9 @@ li#next {
     padding-left: 1rem;
 }
 
+li#link {
+    list-style-image: "x";
+}
 
 li#clear {
     /*list-style-type: none;*/
