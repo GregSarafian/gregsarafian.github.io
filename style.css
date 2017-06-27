@@ -308,7 +308,7 @@ a {
 }
 
 a#blue {
-    color: royalblue;
+    color: #0366d6;
 }
 
 a:visited {
@@ -377,7 +377,7 @@ a#email:hover {
 }
 
 a#mini {
-    color: royalblue;
+    color: #0366d6;
     font-size: 1rem;
     margin: 0.75em 0;
     font-weight: normal;
@@ -386,7 +386,7 @@ a#mini {
 
 
 a#mini:hover {
-    color: #8000ff;
+    text-decoration: underline;
 }
 
 a#disabled:hover {
