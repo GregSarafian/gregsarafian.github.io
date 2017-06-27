@@ -1,5 +1,5 @@
 {
-    "name": "",
+    "name": "Greg Sarafian",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -12,7 +12,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#fffbf1",
-    "background_color": "#fffbf1",
+    "theme_color": "#f0384a",
+    "background_color": "#f0384a",
     "display": "standalone"
 }
