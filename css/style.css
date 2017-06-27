@@ -392,6 +392,10 @@ a#mini-bullet {
     padding: 0 0;
 }
 
+a#mini-bullet:hover {
+    text-decoration: underline;
+}
+
 
 a#mini:hover {
     text-decoration: underline;
