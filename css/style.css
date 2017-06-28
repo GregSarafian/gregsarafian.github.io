@@ -274,14 +274,6 @@ span {
     color: #757575
 }
 
-span#heart {
-    color: #e74c3c
-}
-
-span#coffee {
-    color: #a0522d
-}
-
 
 span#scrobble_pre {
     color: #000
@@ -292,11 +284,13 @@ a#medium {
     font-weight: bold;;
     /*padding: 0 0.4rem;*/
     color: black;
-    border-style: solid;
-    border-top: none;
-    border-right: none;
-    border-left: none;
     border-bottom: thin solid #b4b4b4;
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 a#medium:hover {
@@ -325,55 +319,97 @@ a:hover {
 a#tunes {
     font-weight: normal;
     color:#4CAF50;
+    border-bottom: thin solid white;
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 a#tunes:hover {
-    text-decoration: underline;
+    border-bottom: thin solid #4CAF50;
 }
 
 a#twitter {
     font-weight: normal;
     color:#03A9F4;
+    border-bottom: thin solid white;
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 a#twitter:hover {
-    text-decoration: underline;
+    border-bottom: thin solid #03A9F4;
 }
 
 a#ig {
     font-weight: normal;
     color:#E91E63;
+    border-bottom: thin solid white;
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 a#ig:hover {
-    text-decoration: underline;
+    border-bottom: thin solid #E91E63;
 }
 
 a#vsco {
     font-weight: normal;
     color:#FF9800;
+    border-bottom: thin solid white;
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 a#vsco:hover {
-    text-decoration: underline;
+    border-bottom: thin solid #FF9800;
 }
 
 a#gh {
     font-weight: normal;
     color:#607D8B;
+    border-bottom: thin solid white;
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 a#gh:hover {
-    text-decoration: underline;
+    border-bottom: thin solid #607D8B;
 }
 
 a#email {
     font-weight: normal;
     color:#673AB7;
+    border-bottom: thin solid white;
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 a#email:hover {
-    text-decoration: underline;
+    border-bottom: thin solid #673AB7;
 }
 
 a#mini {
@@ -382,6 +418,17 @@ a#mini {
     margin: 0.75em 0;
     font-weight: normal;
     padding: 0 0;
+    border-bottom: thin solid white;
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+a#mini:hover {
+    border-bottom: thin solid #0366d6;
 }
 
 a#mini-bullet {
@@ -390,16 +437,20 @@ a#mini-bullet {
     font-size: 1rem;
     font-weight: normal;
     padding: 0 0;
+    border-bottom: thin solid white;
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 a#mini-bullet:hover {
-    text-decoration: underline;
+    border-bottom: thin solid #0366d6;
 }
 
 
-a#mini:hover {
-    text-decoration: underline;
-}
 
 a#disabled:hover {
     cursor: not-allowed;
