@@ -1,7 +1,7 @@
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
     font-family: -apple-system, BlinkMacSystemFont, 
-    /*"Segoe UI",*/ "Myriad Pro", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
+    /*"Segoe UI",*/ "Rubik", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
     "Fira Sans", "Droid Sans", "Helvetica Neue", 
     sans-serif;
     line-height: 1.15;
@@ -266,7 +266,7 @@ p {
 }
 
 p#nav {
-
+    color: #747474;
     font-weight: normal
 }
 
