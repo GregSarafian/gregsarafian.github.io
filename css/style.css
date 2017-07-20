@@ -364,9 +364,9 @@ a#ig:hover {
     border-bottom: thin solid #E91E63;
 }
 
-a#vsco {
+a#snap {
     font-weight: normal;
-    color:#FF9800;
+    color:#FFAB00;
     border-bottom: thin solid white;
     
     -o-transition:.5s;
@@ -376,8 +376,8 @@ a#vsco {
     transition:.5s;
 }
 
-a#vsco:hover {
-    border-bottom: thin solid #FF9800;
+a#snap:hover {
+    border-bottom: thin solid #FFAB00;
 }
 
 a#gh {
