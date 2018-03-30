@@ -22,7 +22,7 @@
     <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#f0384a">
     <meta name="theme-color" content="#f0384a">
     <!--Font Awesome-->
-    <script src="https://use.fontawesome.com/0e9f45f15f.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
   </head>
   <body>
     <div class="content">
@@ -31,23 +31,24 @@
         <h1>Greg Sarafian</h1>
         <div class="nav_contain">
         <p id="nav">
-          <a href="https://itunes.apple.com/us/playlist/tunes/idpl.b4822258b0e34ffaa7ba09eec0304c2d" id="tunes">Tunes</a> |
-          <a href="http://twitter.com/GregSarafian" id="twitter">Twitter</a> |
+          <a href="https://itunes.apple.com/profile/GregSarafian" id="mono">Music</a> |
+          <a href="/projects.html" id="mono">Projects</a> |
+          <!--<a href="https://github.com/GregSarafian" id="mono">GitHub</a> |-->
+          <a href="mailto:domain@gregsarafian.com" id="mono">Contact</a>
+          <!--<a href="http://twitter.com/GregSarafian" id="twitter">Twitter</a> |
           <a href="https://instagram.com/GregSarafian" id="ig">Instagram</a> |
-          <a href="https://snapchat.com/add/gregsarafian" id="snap">Snapchat</a> |
-          <a href="https://github.com/GregSarafian" id="gh">GitHub</a><!-- |
-          <a href="mailto:hello@gregsarafian.com" id="email">Email</a>-->
+          <a href="https://snapchat.com/add/gregsarafian" id="snap">Snapchat</a> |-->
         </p>
         </div>
       </div>
       <section id="about">
         <h2 class="header" id="about">About</h2>
           <hr>
-          <p>Hi I'm Greg, a senior at River Dell High School in Oradell, New Jersey, USA. I'm passionate about technology, basketball, and I'm a huge Brooklyn Nets fan. I pride myself on my commitment to enabling others in my community to pursue their passions through the events and clubs that I organize.</p>
+          <p>Hi I'm a senior at River Dell High School in Oradell, New Jersey, USA. I'm passionate about technology, basketball, and I'm a huge Brooklyn Nets fan. I pride myself on my commitment to enabling others in my community to pursue their passions through the events and clubs that I organize.</p>
           <p>After graduating high school, I intend to major in Computer Science.  I built this website from scratch using purely HTML5 and CSS3.  It is a collection of my projects, activities, and achievements that I am most proud of. Thanks for stopping by!</p>
       </section>
-      <section id="projects">
-        <h2 class="header" id="projects">Projects</h2>
+      <section id="xp">
+        <h2 class="header" id="xp">Experience</h2>
           <hr>
         <ul>
           <li id="clear">
@@ -59,16 +60,23 @@
             <ul class="fa-ul">
               <li><i class="fa fa-link fa-flip-horizontal" aria-hidden="true"></i><a id="mini-bullet" href="http://hackriverdell.com">Hack River Dell '17 Website</a></li>
               <!--<li><i class="fa fa-link fa-flip-horizontal" aria-hidden="true"></i><a id="mini-bullet" href="http://2016.hackriverdell.com">Hack River Dell '16 Website</a></li>-->
-              <li><i class="fa fa-twitter" aria-hidden="true"></i><a id="mini-bullet" href="https://twitter.com/HackRiverDell">@HackRiverDell on Twitter</a></li>
+              <li><i class="fab fa-twitter" aria-hidden="true"></i><a id="mini-bullet" href="https://twitter.com/HackRiverDell">@HackRiverDell on Twitter</a></li>
             </ul>
           </li>
-          <li id="clear">
-            <p><span><a id="medium" href="http://www.riverdell.org/STEMposium">Smartphone Security Awareness of Teenagers</a>: </span>Original research project through SUNY Albany's Science Research course that aims to determine whether teen's online security practices accurately reflect their percieved level of online security.</p>
+        <li id="clear">
+            <p><span><a id="medium" href="http://www.riverdell.org/domain/16">Assistant IT Technician</a>: </span>River Dell Technology Department</p>
             <ul>
-              <li><p><span>(Sep. '15 - Present)</span></p></li>
-              <!--<li><p><a id="disabled">[abstract coming soon]</a></p></li>-->
+              <li><p><span>(Summers: 2015 - 2017)</span></p></li>
+              <li><p>Over the past three summers, I've worked as an intern at River Dell Regional School District's IT department.  My contributions include: imaging Windows laptops, sustaining the network by connecting access points and running network cabling throughout the building, and assembling monitors, projectors, printers, and other Windows accessories.</p></li>
             </ul>
           </li>
+        <li id="clear">
+            <p><span><a id="medium" href="http://www.riverdell.org/Page/5">Student Liaison</a>: </span>River Dell Board of Education</p>
+            <ul>
+              <li><p><span>(Jun. '17 - Present)</span></p></li>
+              <li><p>I am a student liaison for the River Dell Board of Education.  At every board meeting I and two other student liaisons present the latest accomplishments and concerns of the students. As a representative for the student body, I provide my own insight prior to decisions being made by the board.</p></li>
+            </ul>
+        </li>
         <li id="clear">
             <p><span><a id="medium" href="http://www.riverdell.org/STEMposium">River Dell STEMposium</a>: </span>River Dell High School's Fifth Annual Symposium</p>
             <ul>
@@ -76,56 +84,17 @@
               <li><p>Along with presenting, I am on the organizing team for River Dell's 4th, 5th, and 6th Annual STEMposium (2016-18).  My contributions include advertising the event, contributing to website development, and formulating design and branding that is present on the website, posters, and all other event identifiables.</p></li>
             </ul>
           </li>
-          <li id="clear">
-            <p><span><a id="medium" href="https://devpost.com/software/notis">Notis</a>: </span>Stay safe when traveling to different countries.</p>
-            <ul>
-              <li><p><span>(Apr. 2016)</span></p></li>
-              <li><p>Hackathon app that won "Intel's Best Beginner Web App Hack" at hackBCA III.</p></li>
-              </ul>
-              <ul class="fa-ul">
-                  <li><i class="fa fa-mobile" aria-hidden="true"></i><a id="mini-bullet" href="https://marvelapp.com/c3hh8h">Test the prototype</a></li>
-                  <li><i class="fa fa-mobile" aria-hidden="true"></i><a id="mini-bullet" href="https://play.google.com/store/apps/details?id=michael.Vasile.Is.An.Idiot">Download on Google Play</a></li>
-              </ul>
-          </li>
-          <li id="clear">
-            <p><span><a id="medium" href="/docs/gh_pres.pdf">Green Harvest</a>: </span>Expense planning and tracking for young entrepeneurs.</p>
-            <ul>
-              <li><p><span>(Jun. 2016)</span></p></li>
-              <li><p>Hackathon app concept that won 1st place at Get Schooled and Viacom's "Mogul in the Making" hackathon.</p></li>
-            </ul>
-              <ul class="fa-ul">
-                  <li><i class="fa fa-mobile" aria-hidden="true"></i><a id="mini-bullet" href="https://marvelapp.com/e356hb">Test the prototype</a></li>
-              </ul>
-          </li>
-          <li id="clear">
-            <p><span><a id="medium" href="https://github.com/rdcyber/helpbit">HelpBit</a>: </span>Connecting those in need of specialized support.</p>
-            <ul>
-              <li><p><span>(Apr. 2017)</span></p></li>
-              <li><p>Hackathon web app that won "Best use of Twilio API" at LIHacks2.</p></li>
-            </ul>
-              <ul class="fa-ul">
-                  <li><i class="fa fa-mobile" aria-hidden="true"></i><a id="mini-bullet" href="https://rdcyber.github.io/helpbit">Test the prototype</a></li>
-              </ul>
-          </li>
-        </ul>
       </section> 
 
-      <section id="extracurriculars">
-        <h2 class="header" id="extracurriculars">Activities</h2>
+      <section id="activities">
+        <h2 class="header" id="activities">Activities</h2>
           <hr>
         <ul>
-          <li id="clear">
-            <p><span><a id="medium" href="http://www.riverdell.org/domain/16">Assistant IT Technician</a>: </span>River Dell Technology Department</p>
-            <ul>
-              <li><p><span>(Summers: 2015 - 2017)</span></p></li>
-              <li><p>Over the past three summers, I've worked as an intern at River Dell Regional School District's IT department.  My contributions include: imaging Windows laptops, sustaining the network by connecting access points and running network cabling throughout the building, and assembling monitors, projectors, printers, and other Windows accessories.</p></li>
-            </ul>
-          </li>
           <li id="clear">
             <p><span><a id="medium" href="http://www.maxpreps.com/athlete/greg-sarafian/UG9bOriuEeaAdqA2nzwY6g/default.htm">Basketball Player</a>: </span>#13, Forward/Center</p>
             <ul>
               <li><p><span>(Sep. '14: Freshman - Feb. '18: Senior)</span></p></li>
-              <li><p><span>Varsity Letter: </span>Junior &amp; Senior Year</p></li>
+              <li><p><span>Varsity: </span>Junior &amp; Senior Year</p></li>
               <li><p>Rebounding machine, hypeman, 1st Team All-Bergen County Hydration Squad.</p</li>
             </ul>
             <ul class="fa-ul">
@@ -137,13 +106,6 @@
             <ul>
               <li><p><span>(Dec. '15 - Present)</span></p></li>
               <li><p>I cofounded and am currently an officer of River Dell's Cyber Security Club.  My contributions include organizing meetings, maintaining the website, and competing in online cyber security competitions with the team.</p></li>
-            </ul>
-          </li>
-          <li id="clear">
-            <p><span><a id="medium" href="http://www.riverdell.org/Page/5">Student Liaison</a>: </span>River Dell Board of Education</p>
-            <ul>
-              <li><p><span>(Jun. '17 - Present)</span></p></li>
-              <li><p>I am a student liaison for the River Dell Board of Education.  At every board meeting I and two other student liaisons present the latest accomplishments and concerns of the students. As a representative for the student body, I provide my own insight prior to decisions being made by the board.</p></li>
             </ul>
           </li>
           <li id="clear">
@@ -169,7 +131,7 @@
         <ul>
             <div class="school">
               <h4>River Dell Regional High School</h4>
-              <p><span>2014 - 2018 (expected)</span></p>
+              <p><span>2014 - 2018 | Oradell, New Jersey, USA</span></p>
               <ul>
                   <li><p><span>Notable Coursework: </span>AP Computer Science A, Introduction to Computer Programming with Python, Computer Systems &amp; Networking, <!--<a id="mini" href="docs/SUPA.pdf">-->SUPA Cyber Security<!--</a>-->, SUPA Forensic Science, SUPA The Economics of Personal Finance</p></li>
                   <li><p><span>Academic Accolades: </span>National Honor Society (Delesage Chapter), National English Honor Society</p></li>
@@ -241,7 +203,7 @@
       </section>-->
       <hr>
       <footer>
-          <p>© 2018 Gregory Sarafian - <a id="mini" href="mailto:domain@gregsarafian.com">Contact</a></p>
+          <p>© 2018 Gregory Sarafian</p>
       </footer>
     </div>
   </body>

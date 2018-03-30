@@ -36,7 +36,8 @@ figure {
 }
 
 hr {
-    background: #e6e6e6;
+    background: black;
+    opacity: 0.1;
     border:0;
     height: 2px;
 }
@@ -216,7 +217,7 @@ template {
 html {
     font-size: 14px;
     line-height: 1.5;
-    background-color: white
+    background-color: #ffffff;
 }
 
 @media screen and (min-width: 400px) {
@@ -408,6 +409,23 @@ a#email {
 
 a#email:hover {
     border-bottom: thin solid #673AB7;
+}
+
+a#mono {
+    font-weight: normal;
+    color:#7e7e7e;
+    border-bottom: thin solid white;
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+a#mono:hover {
+    color:#1c1c1c;
+    border-bottom: thin solid #1c1c1c;
 }
 
 a#mini {
