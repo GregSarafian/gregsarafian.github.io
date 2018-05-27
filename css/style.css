@@ -293,6 +293,11 @@ p#nav {
     font-weight: normal;
 }
 
+.avatar {
+    width: 120px;
+    border-radius: 150px;
+}
+
 span {
     color: #757575
 }
