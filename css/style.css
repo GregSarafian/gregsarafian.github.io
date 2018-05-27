@@ -285,7 +285,8 @@ p {
 
     font-weight: ;
     font-size: 1rem;
-    margin: 0.75em 0
+    margin: 0.75em 0;
+    color: #24292e;
 }
 
 p#nav {
@@ -448,7 +449,7 @@ a#email:hover {
 
 a#mono {
     font-weight: normal;
-    color:#7e7e7e;
+    color:#586069;
     border-bottom: thin solid white;
     
     -o-transition:.5s;
@@ -515,7 +516,12 @@ a#disabled:hover {
 }
 
 ul {
-    padding-left: 1.5rem;
+    padding-left: 2.0rem;
+}
+
+ul#main {
+    padding-left: 0.5rem;
+    list-style-type: none;
 }
 
 li#next {
@@ -523,7 +529,11 @@ li#next {
 }
 
 li#link {
-    list-style-image: "x";
+    padding-left: 0rem;
+}
+
+li#school {
+    list-style-type: circle;
 }
 
 li#clear {
@@ -532,10 +542,14 @@ li#clear {
     padding: 0;
 }
 
+.school {
+    padding-left: 0.5rem;
+}
+
 .content {
     max-width: 44rem;
     padding: 4rem 2rem;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
