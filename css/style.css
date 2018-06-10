@@ -21,12 +21,6 @@ article, aside, footer, header, nav, section {
     text-align: center;
 }
 
-h1 {
-    font-size: 2em;
-    font-weight: bold;
-    /*margin: 0.67em 0*/
-}
-
 figcaption, figure, main {
     display: block
 }
@@ -231,10 +225,11 @@ html {
 }*/
 
 h1 {
+    cursor: default;
     text-align: center;
     font-size: 2.5rem;
     margin: 0 0 0 0;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 h2 {
@@ -252,7 +247,7 @@ h3 {
 }
 
 h4 {
-
+    cursor: default;
     font-size: 1.25rem;
     margin: 0.75em 0
 }
@@ -282,11 +277,10 @@ h4#rd:hover {
 }
 
 p {
-
-    font-weight: ;
     font-size: 1rem;
     margin: 0.75em 0;
     color: #24292e;
+    cursor: default;
 }
 
 p#nav {
@@ -310,7 +304,7 @@ span#scrobble_pre {
 
 a#medium {
 
-    font-weight: bold;;
+    font-weight: 700;
     /*padding: 0 0.4rem;*/
     color: black;
     border-bottom: thin solid #b4b4b4;
@@ -512,7 +506,8 @@ a#disabled:hover {
     color: black;
     display: inline-block;
     padding-bottom: 0;
-    font-weight: 700;
+    font-weight: 600;
+    cursor: default;
 }
 
 ul {
