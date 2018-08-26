@@ -17,6 +17,10 @@ article, aside, footer, header, nav, section {
     display: block;
 }
 
+footer {
+    text-align: center;
+}
+
 .nav_contain {
     text-align: center;
 }
@@ -281,6 +285,10 @@ p {
     margin: 0.75em 0;
     color: #24292e;
     cursor: default;
+}
+
+p#foot {
+    margin: 2px 0 2px 0;
 }
 
 p#nav {
