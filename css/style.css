@@ -17,8 +17,35 @@ article, aside, footer, header, nav, section {
     display: block;
 }
 
+.footer-content {
+    background: rgb(242,242,242);
+    bottom: 0;
+}
+
 footer {
     text-align: center;
+    max-width: 44rem;
+    padding: 2rem 2rem 1rem 2rem;
+    margin: 0 auto;
+}
+
+a#foot {
+    font-weight: normal;
+    color: rgb(92, 92, 92);
+    border-bottom: thin solid rgb(242,242,242);
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+a#foot:hover {
+    color:#1c1c1c;
+    border-bottom: thin solid #1c1c1c;
 }
 
 .nav_contain {
@@ -288,7 +315,13 @@ p {
 }
 
 p#foot {
-    margin: 2px 0 2px 0;
+    margin: 0px 0px 0px 0px;
+}
+
+p#copyright {
+    color: rgb(51, 51, 51);
+    margin: 1rem 0.5rem 1.2rem 0.5rem;
+    font-size: 14px;
 }
 
 p#nav {
@@ -459,6 +492,8 @@ a#mono {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
+    
+    margin: 0rem 0.5rem 0rem 0.5rem;
 }
 
 a#mono:hover {
@@ -551,7 +586,7 @@ li#clear {
 
 .content {
     max-width: 44rem;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem 1rem 2rem;
     margin: 0 auto;
 }
 
