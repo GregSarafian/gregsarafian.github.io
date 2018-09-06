@@ -251,10 +251,6 @@ html {
     }
 }
 
-/*body {
-    font-family: "Cousine", monospace;
-}*/
-
 h1 {
     cursor: default;
     text-align: center;
@@ -268,7 +264,6 @@ h2 {
     font-weight: normal;
     font-size: 1.45rem;
     margin: 20px 0 0 0;
-    /*text-decoration: underline;*/
 }
 
 h3 {
@@ -309,7 +304,7 @@ h4#rd:hover {
 
 p {
     font-size: 1rem;
-    margin: 0.75em 0;
+    margin: 0.4em 0rem 0.4rem 0rem;
     color: #24292e;
     cursor: default;
 }
@@ -321,7 +316,7 @@ p#foot {
 p#copyright {
     color: rgb(51, 51, 51);
     margin: 1rem 0.5rem 1.2rem 0.5rem;
-    font-size: 14px;
+    font-size: 11px;
 }
 
 p#nav {
@@ -521,7 +516,7 @@ a#mini:hover {
 }
 
 a#mini-bullet {
-    margin: 0.75em 0 0 10px;
+    margin: 0.4rem 0rem 0.4rem 0.5rem;
     color: #0366d6;
     font-size: 1rem;
     font-weight: normal;
@@ -562,6 +557,15 @@ ul#main {
     list-style-type: none;
 }
 
+ul.fa-ul {
+    margin-left: 0.5rem;
+}
+
+
+div.xr {
+    margin-bottom: 1.5rem;
+}
+
 li#next {
     padding-left: 1rem;
 }
@@ -576,8 +580,8 @@ li#school {
 
 li#clear {
     /*list-style-type: none;*/
-    margin: 0;
     padding: 0;
+    margin-bottom:1.5rem;
 }
 
 .school {
@@ -586,8 +590,17 @@ li#clear {
 
 .content {
     max-width: 44rem;
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 3.5rem 2rem 0rem 2rem;
     margin: 0 auto;
 }
 
+i {
+    min-width: 1rem;
+    max-width: 1.5rem;
+    align-content: center;
+}
+
+i.fa-mobile-alt {
+    margin-left: 0.15rem;
+}
 /*# sourceMappingURL=style.css.map */
