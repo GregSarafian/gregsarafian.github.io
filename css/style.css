@@ -614,6 +614,14 @@ li#clear {
     margin: 0 auto;
 }
 
+.banner {
+    max-width: 100%;
+    padding: 1px;
+    text-align: center;
+    background-color: orange;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem
+}
+
 i {
     min-width: 1rem;
     max-width: 1.5rem;
@@ -623,4 +631,17 @@ i {
 i.fa-mobile-alt {
     margin-left: 0.15rem;
 }
+
+/* Life */
+
+div.box {
+    max-width: 40rem;
+    padding: 3.5rem 2rem 0rem 2rem;
+    margin: 0 auto;
+    align-content: center;
+}
+
+
+
+
 /*# sourceMappingURL=style.css.map */
