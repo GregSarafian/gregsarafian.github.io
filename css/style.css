@@ -27,13 +27,13 @@ article, aside, footer, header, nav, section {
 footer {
     text-align: center;
     max-width: 44rem;
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     margin: 0 auto;
 }
 
 a#foot {
     font-weight: normal;
-    color: rgb(92, 92, 92);
+    color: rgb(85, 85, 85);
     border-bottom: thin solid rgb(242,242,242);
     
     -o-transition:.5s;
@@ -42,12 +42,12 @@ a#foot {
     -webkit-transition:.5s;
     transition:.5s;
     
-    margin: 0rem 0.5rem 0rem 0.5rem;
+    margin: 0rem 0.3rem 0rem 0.3rem;
 }
 
 a#foot:hover {
-    color:#1c1c1c;
-    border-bottom: thin solid #1c1c1c;
+    color: rgb(51, 51, 51);
+    border-bottom: thin solid rgb(51, 51, 51);
 }
 
 .nav_contain {
@@ -334,8 +334,14 @@ p#foot {
 }
 
 p#copyright {
-    color: rgb(51, 51, 51);
-    margin: 1rem 0.5rem 1.2rem 0.5rem;
+    color: #888888;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    font-size: 11px;
+}
+
+p#footer-links {
+    color: #888888;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
     font-size: 11px;
 }
 
