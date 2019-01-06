@@ -3,3 +3,4 @@ Disallow: /docs/
 Disallow: /favicons/
 Disallow: /CNAME
 Disallow: /googlec8bde7f2fe220c95.html
+Disallow: /bitcamp.html
