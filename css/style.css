@@ -22,6 +22,12 @@ article, aside, footer, header, nav, section {
     bottom: 0;
     width: 100%;
     bottom: 0;
+    
+    /* Animated fade-in */
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
 
 footer {
@@ -29,6 +35,12 @@ footer {
     max-width: 44rem;
     padding: 1rem 2rem 1rem 2rem;
     margin: 0 auto;
+    
+    /* Animated fade-in */
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
 
 a#foot {
@@ -618,6 +630,53 @@ li#clear {
     max-width: 44rem;
     padding: 3.5rem 2rem 0rem 2rem;
     margin: 0 auto;
+    
+    /* Animated fade-in */
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+/* Fade-in animation */
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .banner {
