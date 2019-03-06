@@ -13,6 +13,32 @@ body {
     margin: 0
 }
 
+@media (prefers-color-scheme: dark) {
+    /* Overrides for Dark Mode. */
+    body {
+        color: white;
+        background: rgb(31, 32, 34);
+    }
+    
+    html, p#text {
+        color: rgb(221, 221, 221);
+    }
+    
+    h2#about,h2#xp,h2#education,h2#press {
+        color: rgb(221, 221, 221);
+    }
+    
+    hr#line {
+        background: white;
+    }
+    footer {
+        background: rgb(23,23,23);
+    }
+    a#medium {
+        color: white;
+    }
+}
+
 article, aside, footer, header, nav, section {
     display: block;
 }
@@ -86,10 +112,6 @@ hr {
 pre {
   font-family: monospace, monospace;
   font-size: 1em;
-}
-
-a {
-    background-color: transparent;
 }
 
 a:active, a:hover {
@@ -377,9 +399,7 @@ span#scrobble_pre {
 }
 
 a#medium {
-
     font-weight: 700;
-    /*padding: 0 0.4rem;*/
     color: black;
     border-bottom: thin solid #b4b4b4;
     
@@ -390,130 +410,32 @@ a#medium {
     transition:.5s;
 }
 a#medium:hover {
-    border-bottom: thin solid #0366d6;
-    color: #0366d6;
+    border-bottom: thin solid #0070f5;
+    color: #0070f5;
 }
-
-/* Alternate link hover effect
-a#medium:hover {
-    border-bottom: thin solid black;
-}
-*/
 
 a {
     text-decoration: none;
+    background-color: transparent;
+    color: black;
 }
 
 a#blue {
-    color: #0366d6;
+    color: #0070f5;
 }
 
 a:visited {
     color: black;
 }
 
+/*
 a:hover {
-    /*text-decoration: underline;
+    text-decoration: underline;
     background-color: black;
     font-weight: bold;
-    color: #fffbf1*/
+    color: #fffbf1
 }
-
-a#tunes {
-    font-weight: normal;
-    color:#4CAF50;
-    border-bottom: thin solid white;
-    
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
-}
-
-a#tunes:hover {
-    border-bottom: thin solid #4CAF50;
-}
-
-a#twitter {
-    font-weight: normal;
-    color:#03A9F4;
-    border-bottom: thin solid white;
-    
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
-}
-
-a#twitter:hover {
-    border-bottom: thin solid #03A9F4;
-}
-
-a#ig {
-    font-weight: normal;
-    color:#E91E63;
-    border-bottom: thin solid white;
-    
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
-}
-
-a#ig:hover {
-    border-bottom: thin solid #E91E63;
-}
-
-a#snap {
-    font-weight: normal;
-    color:#FFAB00;
-    border-bottom: thin solid white;
-    
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
-}
-
-a#snap:hover {
-    border-bottom: thin solid #FFAB00;
-}
-
-a#gh {
-    font-weight: normal;
-    color:#607D8B;
-    border-bottom: thin solid white;
-    
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
-}
-
-a#gh:hover {
-    border-bottom: thin solid #607D8B;
-}
-
-a#email {
-    font-weight: normal;
-    color:#673AB7;
-    border-bottom: thin solid white;
-    
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
-}
-
-a#email:hover {
-    border-bottom: thin solid #673AB7;
-}
+*/
 
 a#mono {
     font-weight: normal;
@@ -535,7 +457,7 @@ a#mono:hover {
 }
 
 a#mini {
-    color: #0366d6;
+    color: #0070f5;
     font-size: 1rem;
     margin: 0.75em 0;
     font-weight: normal;
@@ -550,12 +472,12 @@ a#mini {
 }
 
 a#mini:hover {
-    border-bottom: thin solid #0366d6;
+    border-bottom: thin solid #0070f5;
 }
 
 a#mini-bullet {
     margin: 0.4rem 0rem 0.4rem 0.5rem;
-    color: #0366d6;
+    color: #0070f5;
     font-size: 1rem;
     font-weight: normal;
     padding: 0 0;
@@ -569,7 +491,7 @@ a#mini-bullet {
 }
 
 a#mini-bullet:hover {
-    border-bottom: thin solid #0366d6;
+    border-bottom: thin solid #0070f5;
 }
 
 
