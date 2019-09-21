@@ -22,7 +22,7 @@ body {
     /*Overrides for Dark Mode. */
     body {
         color: white;
-        background: rgb(23,23,23);
+        background: #000000;
         height: 100%;
     }
     
@@ -38,7 +38,7 @@ body {
         background: white;
     }
     footer {
-        background: rgb(23,23,23);
+        background: #000000;
     }
     
     a#box {
