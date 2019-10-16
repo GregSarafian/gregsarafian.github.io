@@ -30,7 +30,7 @@ body {
         color: rgb(221, 221, 221);
     }
     
-    h2#about,h2#xp,h2#education,h2#press {
+    h2 {
         color: rgb(221, 221, 221);
     }
     
@@ -47,7 +47,7 @@ body {
     
     a#box:hover {
         color: white;
-        background-color: rgb(255,255,255, 0.1);
+        background-color: rgb(255,255,255, 0.15);
     }
 
 }
