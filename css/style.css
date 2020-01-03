@@ -49,6 +49,15 @@ body {
     color: white;
     background-color: rgb(255,255,255, 0.15);
   }
+  
+  a#mini {
+    color: white;
+    border-bottom: thin solid rgb(255,255,255,0.2);
+  }
+
+  a#mini:hover {
+    border-bottom: thin solid white;
+  }
 
 }
 
