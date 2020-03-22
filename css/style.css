@@ -18,8 +18,9 @@ body {
 
 }
 
+/*
 @media (prefers-color-scheme: dark) {
-  /*Overrides for Dark Mode. */
+  Overrides for Dark Mode. 
   body {
     color: white;
     background: #000000;
@@ -64,6 +65,7 @@ body {
   }
 
 }
+*/
 
 /* IMAGE GRID */
 .row {
@@ -126,6 +128,7 @@ footer {
   max-width: 44rem;
   padding: 1rem 2rem 1rem 2rem;
   margin: 0 auto;
+  height 20%;
 
   /* Animated fade-in */
   animation: fadein 2s;
@@ -429,6 +432,18 @@ p#nav {
   -ms-user-select: none;
 }
 
+.sig {
+  width: 100%;
+
+  /* Disallow dragging */
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 span {
   color: #757575
 }
@@ -479,6 +494,23 @@ a#box:hover {
   transition:.2s;
 }
 
+a#link {
+    text-decoration: none;
+    padding: 4px 20px 4px 20px;
+    font-size: 1.3rem;
+    
+    color: rgb(0,0,0, 0.4);
+    font-weight: 400;
+    font-family: Times;
+}
+
+a#link:hover {
+    
+    color: rgb(0,0,0, 1.0);
+    font-weight: 400;
+    font-family: Times;
+}
+
 a#mini {
   text-decoration: none;
   /* color: #000000; */
@@ -525,9 +557,11 @@ div.xr {
 
 .content {
   max-width: 44rem;
-  padding: 3.5rem 2rem 0rem 2rem;
+/*  padding-top: 15%;*/
+  padding: 10rem 2rem 5rem 2rem;
   margin: 0 auto;
   vertical-align: middle;
+/*  height: 65%;*/
 
   /* Animated fade-in */
   animation: fadein 2s;
