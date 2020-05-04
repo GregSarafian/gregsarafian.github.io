@@ -501,14 +501,13 @@ a#link {
     
     color: rgb(0,0,0, 0.4);
     font-weight: 400;
-    font-family: Times;
+    font-family: "IBM Plex Sans";
 }
 
 a#link:hover {
     
     color: rgb(0,0,0, 1.0);
     font-weight: 400;
-    font-family: Times;
 }
 
 a#mini {
